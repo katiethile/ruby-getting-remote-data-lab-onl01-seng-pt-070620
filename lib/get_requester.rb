@@ -14,6 +14,6 @@ def initialize(url)
   end 
 
   def parse_json 
-  JSON.parse(get_response_body)
+    JSON.parse(get_response_body)
   end 
 end 
